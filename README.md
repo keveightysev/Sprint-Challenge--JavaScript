@@ -30,26 +30,39 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. Describe the biggest difference between `.forEach` & `.map`.
 
+.forEach does not return anything, just does whichever function for each array element. .map creates a new array with the results of a function.
+
 2. What is the difference between a function and a method?
+
+A method is a function within the scope of an object.
 
 3. What is closure?
 
+Closure is when a function has access to variables within its own scope (as well as the global scope), but outside functions do not have access to those variables.
+
 4. Describe the four rules of the 'this' keyword.
 
+Window/Global Binding: In the global scope, "this" refers to the window/console.
+Implicit Binding: When a function is attached to a variable object, that object is "this."
+New Binding: When a variable is created using a constructor function, "this" refers to the specific variable that is being created.
+Explicit Binding: "This" is explicitly defined when a .call or .apply method is used.
+
 5. Why do we need super() in an extended class?
+
+super() is used to "link" a parent's constructor using the child's attributes, essentially replacing the need to call the Parent constructor (as you would in prototypical constructors)
 
 ## Project Set up
 
 Follow these steps to set up and work on your project:
 
-- [ ] Create a forked copy of this project.
-- [ ] Add PM as collaborator on Github.
-- [ ] Clone your OWN version of Repo (Not Lambda's by mistake!).
-- [ ] Create a new Branch on the clone: git checkout -b `<firstName-lastName>`.
-- [ ] Create a pull request before you start working on the project requirements.  You will continuously push your updates throughout the project.
-- [ ] You are now ready to build this project with your preferred IDE
-- [ ] Implement the project on your Branch, committing changes regularly.
-- [ ] Push commits: git push origin `<firstName-lastName>`.
+- [x] Create a forked copy of this project.
+- [x] Add PM as collaborator on Github.
+- [x] Clone your OWN version of Repo (Not Lambda's by mistake!).
+- [x] Create a new Branch on the clone: git checkout -b `<firstName-lastName>`.
+- [x] Create a pull request before you start working on the project requirements.  You will continuously push your updates throughout the project.
+- [x] You are now ready to build this project with your preferred IDE
+- [x] Implement the project on your Branch, committing changes regularly.
+- [x] Push commits: git push origin `<firstName-lastName>`.
 
 Follow these steps for completing your project:
 
